@@ -1,6 +1,6 @@
 # Privacy Policy for "Thank God" Chrome Extension
 
-**Last Updated: May 5, 2026**
+**Last Updated: May 8, 2026**
 
 Your privacy is our priority. This Privacy Policy explains how the "Thank God" Chrome extension handles your data.
 
@@ -11,7 +11,7 @@ The "Thank God" extension is designed with a **privacy-first, local-only** philo
     - **Favorites**: Blessings and quotes you choose to save.
     - **Gratitude Journal**: Your personal reflections and journal entries.
     - **Progress & Achievements**: Your daily streaks and unlocked milestones.
-    - **Settings**: Your theme choices and notification preferences.
+    - **Settings**: Your theme choices, visual ambiance preferences, and notification schedules.
 - **Data Syncing**: This data is synced only across your own devices where you are logged into Chrome, via your personal Google account. We (the developers) have no access to this data.
 - **No Tracking**: We do not use cookies, analytics, or any tracking scripts.
 
@@ -30,8 +30,8 @@ Your data remains entirely under your control. Since no data is transmitted to o
 ### 5. Changes to This Policy
 We may update this Privacy Policy to reflect changes in functionality. Any updates will be noted by the "Last Updated" date at the top of this document.
 
-### 6. Contact Us
-If you have any questions about this Privacy Policy, please contact us through the Chrome Web Store developer support channel.
+### 6. Contact
+If you have any questions about this Privacy Policy, please contact through the Chrome Web Store developer support channel.
 
 ---
 *By using the "Thank God" extension, you agree to the terms outlined in this Privacy Policy.*
