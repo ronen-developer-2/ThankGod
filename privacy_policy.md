@@ -18,6 +18,7 @@ The "Thank God" extension is designed with a **privacy-first, local-only** philo
 ### 2. Permissions and Page Interaction
 The extension requests specific permissions to function:
 - **`storage`**: Essential for saving your journal, favorites, and settings.
+- **`activeTab`**: This allows the extension to temporarily interact with your current tab only when you explicitly click the extension icon. This ensures that any deep interaction is user-triggered and temporary, rather than persistent.
 - **Content Scripts (`<all_urls>`)**: This is used exclusively to display the **Floating Sanctuary** bubble on web pages.
     - **Important**: While the extension is active on all pages to show the bubble, it **does not read, record, or transmit** any content from the websites you visit, nor does it track your browsing history.
 
