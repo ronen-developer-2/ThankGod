@@ -1,6 +1,6 @@
 # Privacy Policy for "Thank God" Chrome Extension
 
-**Last Updated: May 11, 2026**
+**Last Updated: July 8, 2026**
 
 Your privacy is our sacred priority. This Privacy Policy explains how the "Thank God" Chrome extension handles your data with absolute transparency.
 
@@ -10,20 +10,21 @@ The "Thank God" extension is built with a **privacy-first, local-only** philosop
 - **No Personal Data Collection**: We do not collect, store, or transmit any personal information—including names, email addresses, or account details—to any external servers.
 - **Local Storage**: All data you generate is stored exclusively on your device using the `chrome.storage.local` and `chrome.storage.sync` APIs. This includes:
     - **Gratitude Journal**: Your personal reflections and journal entries remain 100% private on your device.
-    - **Favorites**: Blessings and quotes you choose to save for future reflection.
+    - **Saved Favorites**: Blessings and quotes you choose to save for future reflection.
+    - **Recent History**: The list of recent blessings you have encountered.
     - **Progress & Achievements**: Your daily streaks and unlocked spiritual milestones.
-    - **Settings**: Your theme choices (e.g., Divine Gold, Zen Garden), notification schedules, and ambiance preferences.
-- **Data Syncing**: If enabled, settings and favorites are synced only across your own devices where you are logged into Chrome, via your personal Google account. We (the developers) have no access to this data.
+- **Data Syncing**: Your extension preferences (e.g., visual theme, notification schedules, speech settings, and content categories) are stored using the `chrome.storage.sync` API. If Chrome sync is enabled, these settings are synchronized across your own devices logged into Chrome via your Google Account. We (the developers) do not collect or have access to this data.
 - **No Tracking**: We do not use cookies, analytics, tracking scripts, or advertisements. Your journey is private and uninterrupted.
 
 ### 2. Permissions and Page Interaction
 The extension requests specific permissions to provide a seamless spiritual experience:
 
-- **`storage`**: Essential for saving your journal, favorites, and settings locally.
-- **`activeTab` & `tabs`**: Used to ensure the Floating Sanctuary bubble can be displayed and managed across your active browsing sessions.
-- **`scripting`**: Required to inject the gentle Floating Sanctuary interface into the pages you browse at your scheduled times.
-- **Content Scripts (`<all_urls>`)**: Used exclusively to display the **Floating Sanctuary** bubble.
-    - **Intelligent Exclusion**: To respect your focused workspace, the extension automatically excludes productivity-heavy domains (such as Google Docs, Sheets, and Search) from bubble injection.
+- **`storage`**: Essential for saving your journal, favorites, settings, and stats locally.
+- **`scripting`**: Required to safely inject the gentle Floating Sanctuary bubble interface into the pages you browse at your scheduled times.
+- **`alarms`**: Used to schedule the display of the Floating Sanctuary bubble and trigger daily reminder notifications at your chosen times.
+- **`notifications`**: Required to deliver daily blessings, motivations, or affirmations directly to your desktop/system notification area.
+- **Content Scripts & Host Permissions (`<all_urls>`)**: Used exclusively to display the **Floating Sanctuary** bubble on web pages you browse at your scheduled times.
+    - **Intelligent Exclusion**: To respect your focused workspace, the extension automatically excludes Google domains (such as Google Search, Docs, Sheets, and Drive) and internal browser pages from bubble injection.
     - **Privacy Guarantee**: While the extension has permission to display the sanctuary on web pages, it **does not read, record, or transmit** any content from the websites you visit, nor does it track your browsing history.
 
 ### 3. Third-Party Services
