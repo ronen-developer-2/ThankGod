@@ -1,6 +1,6 @@
 # Privacy Policy for "Thank God" Chrome Extension
 
-**Last Updated: July 8, 2026**
+**Last Updated: July 11, 2026**
 
 Your privacy is our sacred priority. This Privacy Policy explains how the "Thank God" Chrome extension handles your data with absolute transparency.
 
@@ -27,8 +27,10 @@ The extension requests specific permissions to provide a seamless spiritual expe
     - **Intelligent Exclusion**: To respect your focused workspace, the extension automatically excludes Google domains (such as Google Search, Docs, Sheets, and Drive) and internal browser pages from bubble injection.
     - **Privacy Guarantee**: While the extension has permission to display the sanctuary on web pages, it **does not read, record, or transmit** any content from the websites you visit, nor does it track your browsing history.
 
-### 3. Third-Party Services
-The extension does not share any data with third-party services. All blessing libraries, audio logic, and core features are bundled locally within the extension package.
+### 3. External Links and Services
+- **Local Execution**: All blessing libraries, audio text-to-speech, and core features execute entirely locally within the extension package.
+- **External Connections**: Clicking external links within the extension (such as the Support link, community Telegram channel, or the community Prayer Room) opens those official web pages in a new browser tab. These sites are subject to their own standard website privacy policies.
+- **No Data Sharing**: The extension itself does not transmit, share, or expose any of your local extension data (such as journal entries, streaks, or favorites) when opening these external links.
 
 ### 4. Security
 Your data remains entirely under your control. Since no data is transmitted to our servers, your information is as secure as your own Google account and local machine.
